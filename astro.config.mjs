@@ -22,7 +22,7 @@ export default defineConfig({
 						{ label: 'Ricing Tools', slug: 'guides/ricing' },
 						{ label: 'Gaming Tools', slug: 'guides/gaming' },
 						{ label: 'Development Tools', slug: 'guides/development' },
-						{ label: 'Security Tools', slug: 'guides/secuirty' },
+						{ label: 'Security Tools', slug: 'guides/security' },
 					],
 				},
 				{
