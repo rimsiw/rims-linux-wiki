@@ -1,0 +1,109 @@
+---
+title: Package Manager Reference
+description: Reference for package manager installing, removing and updating system
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Steps } from '@astrojs/starlight/components';
+
+<Tabs>
+    <TabItem label="System Agnostic">
+        ### Nix
+
+        #### Installation of Nix
+
+        Installation for multi-user.
+
+        ```sh 
+        $ sh <(curl -L https://nixos.org/nix/install) --daemon
+        ```
+
+        #### Search for available packages
+        ```sh
+        $ nix-env --query --available --attr-path
+        ```
+
+        #### Installing packages from the channel
+        
+        <Steps>
+        1.  Installing the package
+
+            ```sh  
+            $ nix-env --install --attr nixpkgs.firefox
+            ```
+
+        2. Testing whether packages work
+
+            ```sh
+            $ which firefox
+            /home/user/.nix-profile/bin/firefox
+            ```
+       </Steps>
+
+        #### Uninstalling a package
+        ```sh
+        $ nix-env --uninstall firefox
+        ```
+
+        #### Updating channel
+        ```sh
+        $ nix-channel --update nixpkgs
+        ```
+
+        #### Updating packages
+        ```sh
+        $ nix-env --upgrade '*'
+        ```
+    </TabItem>
+    <TabItem label="Arch">
+        ### Pacman
+        :::note
+        Pacman package manager is preinstalled on every arch-based distribution
+        :::
+        #### Installing packages
+        ```sh
+        $ sudo pacman -S firefox
+        ```
+
+        #### Updating system and packages
+        ```sh
+        $ sudo pacman -Syu
+        ```
+
+        #### Uninstalling packages
+        ```sh
+        $ sudo pacman -R firefox
+        ```
+
+        ### yay
+        #### Installing yay
+        ```sh
+        $ sudo pacman -S --needed git base-devel
+        $ git clone https://aur.archlinux.org/yay-bin.git
+        $ cd yay-bin
+        $ makepkg -si
+        ```
+
+        or, if you want to do this all by once:
+        ```sh
+        $ sudo pacman -S --needed git base-devel && git clone https://aur.archlinux.org/yay-bin.git && cd yay-bin && makepkg -si
+        ```
+
+        #### Installing packages
+        ```sh
+        $ yay -S firefox
+        ```
+
+        #### Updating packages
+        ```sh
+        $ yay
+        ```
+
+        #### Uninstalling packages
+        ```sh
+        $ yay -R firefox
+        ```
+    </TabItem>
+    <TabItem label="Debian/Ubuntu">
+    </TabItem>
+</Tabs>

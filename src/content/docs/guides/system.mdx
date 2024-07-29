@@ -1,0 +1,219 @@
+---
+title: System Tools
+description: Tools and software involving your own system.
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+import { Badge } from '@astrojs/starlight/components';
+import { Icon } from '@astrojs/starlight/components';
+
+## Terminal Emulators
+
+:::note
+A terminal emulator is a software application that allows you to interact with your computer's operating system using text commands.
+:::
+
+- ⭐ **[kitty](https://sw.kovidgoyal.net/kitty/)** - Fast and feature-rich GPU accelarated terminal
+- [WezTerm](https://wezfurlong.org/wezterm/index.html) - Powerful terminal written in Rust
+- [Alacritty](https://alacritty.org/) - OpenGL terminal emulator
+- [Guake](https://github.com/Guake/guake) - Dropdown terminal for GNOME desktop environment
+- [Konsole](https://konsole.kde.org/) - Lightweight terminal emulator for KDE desktop environment
+- [yakuake](https://github.com/KDE/yakuake) - Dropdown terminal based on Konsole
+- [Hyper](https://hyper.is/) - Electron-based terminal emulator
+- [zutty](https://tomscii.sig7.se/zutty/) - High-end terminal for low-end system
+
+## Terminal Shells
+
+- ⭐ **[bash](https://www.gnu.org/software/bash/)** - Simple and popular command-line shell
+- ⭐ **[zsh](https://www.zsh.org/)** - Shell designed for interactive use
+- [dash](http://gondor.apana.org.au/~herbert/dash/) - Fast shell designed to be as small as possible
+- [fish](https://fishshell.com/) - Smart command-line shell
+
+## Package Managers
+:::note
+If you want information on how to install, update and remove packages in each package manager. check out [🔗 package manager reference](../reference/package-manager), or their respective documentation
+:::
+<Tabs>
+    <TabItem label="Distro Agnostic">
+        - ⭐ **[Nix](https://nixos.org/#)** - Huge package manager with many features, from the same developers as NixOS
+        - ⭐ **[Flatpak](https://flatpak.org/)** - Contained applications
+        - [zap](https://zap.srev.in/) - AppImage package manager
+        - [Homebrew](https://brew.sh/) - Package manager firstly made for MacOS
+        - [pip](https://pypi.org/project/pip/) - Package manager for Python programming language
+        - [pipx](https://github.com/pypa/pipx) - pip but in isolated environments
+        - [npm](https://www.npmjs.com/) - JavaScript package manager
+        - [yarn](https://yarnpkg.com/getting-started) - Open-source package manager for JavaScript
+    </TabItem>
+    <TabItem label="Arch">
+        - ⭐ **[Pacman](https://wiki.archlinux.org/title/Pacman)** - Default package manager for Arch
+        - ⭐ **[yay](https://github.com/Jguer/yay)** - Most popular AUR helper
+        - ⭐ **[paru](https://github.com/morganamilo/paru)** - Feature packed AUR helper
+        - [aura](https://github.com/fosskers/aura) - Secure AUR helper
+        - [pikaur](https://github.com/actionless/pikaur) - AUR helper with minimal dependencies
+    </TabItem>
+    <TabItem label="Debian/Ubuntu">
+        - ⭐ **[apt](https://en.wikipedia.org/wiki/APT_(software))** - Default package manager for Debian
+        - [Pacstall](https://pacstall.dev/) - Arch-styled package manager for Ubuntu
+    </TabItem>
+</Tabs>
+
+### GUI for managing packages
+- ⭐ **[KDE Discover](https://apps.kde.org/discover/)** - KDE package managment utility
+- [GNOME Software](https://apps.gnome.org/Software/) - GNOME package management utility
+- [AppImage Pool](https://www.pling.com/p/1547076/) - Store for AppImages
+- [Pamac](https://wiki.manjaro.org/index.php/Pamac) - Made by Manjaro package management utility <Badge text="Arch-based systems only" variant="note" size="medium" />
+- [Synaptic](https://www.nongnu.org/synaptic/) - Advanced package management software <Badge text="apt only" variant="note" size="medium" />
+
+## Desktop Environments
+
+:::note
+Desktop Environment (DE) is a bundle of application sharing common graphical user interface (GUI)
+:::
+
+<Tabs>
+    <TabItem label="Desktop">
+        - ⭐ **[KDE Plasma](https://kde.org/plasma-desktop/)** - Sleek and modern desktop environment
+        - ⭐ **[XFCE](https://xfce.org/)** - Lightweight desktop environment
+        - [GNOME](https://www.gnome.org/) - Attractive and intuitive desktop environment
+        - [Budgie](https://buddiesofbudgie.org/) - Modern desktop environment
+        - [Cinnamon](https://github.com/linuxmint/Cinnamon) - Desktop with traditional user experience
+        - [LXDE](https://www.lxde.org/) - Lightweight desktop environment
+        - [LXQt](https://lxqt-project.org/) - Even more lightweight desktop based on LXDE
+        - [MATE](https://mate-desktop.org/) - Desktop environment which startet as a fork of GNOME 2
+    </TabItem>
+    <TabItem label="Mobile">
+        - ⭐ **[Plasma Mobile](https://invent.kde.org/plasma/plasma-mobile)** - Mobile version of KDE Plasma
+        - [Phosh](https://gitlab.gnome.org/World/Phosh/phosh) - GNOME on mobile
+    </TabItem>
+</Tabs>
+
+## Window Managers
+
+### Wayland Compositors
+
+<Tabs>
+    <TabItem label="Tiling">
+        - ⭐ **[Hyprland](https://hyprland.org/)** - Tiling manager with eye-candy
+        - ⭐ **[Sway](https://github.com/swaywm/sway)** - i3 compatible wayland compositor / [SwayFX](https://github.com/WillPower3309/swayfx)
+        - [river](https://codeberg.org/river/river) - Dynamic tiling wayland compositor
+        - [Qtile](https://github.com/qtile/qtile) - Hackable tiling manager
+    </TabItem>
+    <TabItem label="Stacking">
+        - [Kwin](https://userbase.kde.org/KWin) - KDE window manager used in KDE Plasma
+        - [wayfire](https://wayfire.org/)
+    </TabItem>
+</Tabs>
+
+### X11
+
+<Tabs>
+    <TabItem label="Tiling">
+        - ⭐ **[i3](https://i3wm.org/)** - Most popular tiling window manager
+        - [Bspwm](https://github.com/baskerville/bspwm) - Represents windows as leaves of a full binary tree
+        - [Awesome](https://awesomewm.org/) - Highly configurable, next generation window manager for X11
+        - [Qtile](https://github.com/qtile/qtile) - Hackable tiling manager
+        - [xmonad](https://xmonad.org/) - DYnamic tiling window manager
+    </TabItem>
+    <TabItem label="Stacking">
+        - [Fluxbox](https://github.com/fluxbox/fluxbox) - Extremely fast window manager
+        - [xfwm4](https://docs.xfce.org/xfce/xfwm4/start) - XFCE window manager
+    </TabItem>
+</Tabs>
+
+## System Info
+
+### Fetch
+
+- ⭐ **[neofetch](https://github.com/dylanaraps/neofetch)** - Classis fetch style program <Badge text="Discontinued" variant="caution" size="medium" />
+- ⭐ **[fastfetch](https://github.com/fastfetch-cli/fastfetch)** - Fast fetch program written in C
+- [hyfetch](https://github.com/hykilpikonna/hyfetch) - Pride flags in neofetch/fastfetch
+- [macchina](https://github.com/Macchina-CLI/macchina) - Simple and customizable fetch written in Rust
+
+### Monitors
+
+<Tabs>
+    <TabItem label="Graphical">
+        - [Mission Center](https://gitlab.com/mission-center-devs/mission-center) - System resources monitor similar to Windows one
+        - [AMDGPU_TOP](https://github.com/Umio-Yasuno/amdgpu_top) - Tool for displaying usage of your AMD graphics card using AMDGPU driver
+    </TabItem>
+    <TabItem label="CLI">
+        - ⭐ **[htop](https://htop.dev/)** - Interactive process viewer
+        - [vtop](https://github.com/MrRio/vtop) - Monitor system resources usage
+        - [bashtop](https://github.com/aristocratos/bashtop) - Customizable and extensive resource monitor
+    </TabItem>
+</Tabs>
+
+## Virtual Machines
+
+- ⭐ **[QEMU](https://www.qemu.org/)** - Generic open-source virtual machines
+- ⭐ **[virt-manager](https://virt-manager.org/)** - Tool for managing KVM virtual machines
+- [VirtualBox](https://www.virtualbox.org/) - Easy to use virtual machine
+
+## File Manager
+<Tabs>
+    <TabItem label="Graphical">
+        - ⭐ **[Dolphin](https://apps.kde.org/dolphin/)** - File manager for KDE Plasma desktop environment
+        - ⭐ **[Thunar](https://docs.xfce.org/xfce/thunar/start)** - Extensible file manager for XFCE desktop environment
+        - [Nemo](https://github.com/linuxmint/nemo) - File manager for Cinnamon desktop environment
+        - [fm](https://github.com/euclio/fm) - Small general-purpose file manager
+    </TabItem>
+    <TabItem label="CLI">
+        - ⭐ **[ranger](https://ranger.github.io/)** - File manager with VI keybindings
+        - [nnn](https://github.com/jarun/nnn) - Blazingly fast file manager
+        - [mc](https://midnight-commander.org/) - Classic file manager
+        - [joshuto](https://github.com/kamiyaa/joshuto) - ranger-like file manager written in Rust
+        - [fff](https://github.com/dylanaraps/fff) - Fast file manager <Badge text="Discontinued" variant="caution" size="medium" />
+    </TabItem>
+</Tabs>
+
+### Archiving tools
+<Tabs>
+    <TabItem label="Graphical">
+        - ⭐ **[Ark](https://apps.kde.org/ark/)** - Archiving tool for KDE Plasma
+        - [PeaZip](https://peazip.github.io/peazip-linux.html) - Alternative to WinRAR for linux
+        - [Xarchiver](https://github.com/ib/xarchiver) - Lightweight archiving utility
+        - [LXQt-archiver](https://github.com/lxqt/lxqt-archiver) - Archiver for LXQt desktop
+    </TabItem>
+    <TabItem label="CLI">
+        - ⭐ **[GNU tar](https://www.gnu.org/software/tar/)** - GNU software for compressions
+        - [p7zip](https://github.com/p7zip-project/p7zip) - POSIX variant of 7-zip
+    </TabItem>
+</Tabs>
+
+## Text Editors
+
+<Tabs>
+    <TabItem label="Graphical">
+        - ⭐ **[Kate](https://kate-editor.org/)** - Customizable KDE Plasma text editor
+        - ⭐ **[VSCodium](https://vscodium.com/)** - FLOSS version of VSCode
+        - [zed](https://zed.dev/) - High-performance code editor
+        - [Notepadqq](https://notepadqq.com/s/) - Notepad++ alternative for linux
+        - [FeatherPad](https://github.com/tsujan/FeatherPad) - Minimal graphical text editor
+        - [gedit](https://gedit-technology.github.io/apps/gedit/) - GTK text editor for GNOME desktop environment
+        - [Howl](https://howl.io/) - Lightweight text editor
+        - [GNU Emacs](https://www.gnu.org/software/emacs/emacs.html) - Extensible and customizable text editor
+        - [GNU Zile](https://www.gnu.org/software/zile/) - Lightweight clone of Emacs
+        - [neovim Qt](https://github.com/equalsraf/neovim-qt) - GUI for neovim based on Qt
+    </TabItem>
+    <TabItem label="CLI">
+        - ⭐ **[GNU nano](https://nano-editor.org/)** - Classic text editor
+        - [micro](https://micro-editor.github.io/) - Intuitive editor based on nano
+        - [neovim](https://neovim.io/) - Modern version of vim with Lua plugins
+        - [vim](https://www.vim.org/) - Improved version of vi
+        - [vi](https://ex-vi.sourceforge.net/) - Classic text editor
+        - [Helix](https://github.com/helix-editor/helix) - neovim inspired editor written in Rust
+    </TabItem>
+</Tabs>
+
+## Disks
+
+### Mounting
+
+    - [KDiskFree](https://apps.kde.org/kdf/) - KDE Plasma's utility for mounting disks
+    - [udevil](https://ignorantguru.github.io/udevil/) - Mounts devices as a regular user
+    - [pmount](https://wiki.debian.org/pmount) - Easy-mounting utility
+
+### Disk usage
+
+    - [Filelight](https://apps.kde.org/filelight/) - Disk usage analizer for KDE Plasma desktop
+    - 🖥️ [dust](https://github.com/bootandy/dust) - Alternative to du, written in Rust

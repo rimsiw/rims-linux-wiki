@@ -1,0 +1,41 @@
+---
+title: Gamemode Reference
+description: Guide for using gamemode
+---
+
+import { Tabs, TabItem } from '@astrojs/starlight/components';
+
+### Verify whether gamemode is running
+
+```sh
+$ gamemoded -t
+```
+
+### Running game with gamemode
+
+```sh
+$ gamemoderun <game-binary>
+```
+
+### Running gamemode with steam game
+
+To add gamemode to steam game, add following to its properties:
+
+<Tabs>
+    <TabItem label="Without MangoHUD">
+        ```
+        gamemoderun %command%
+        ```
+    </TabItem>
+    <TabItem label="With MangoHUD">
+        ```
+        mangohud gamemoderun %command%
+        ```
+    </TabItem>
+</Tabs>
+
+### Running with MangoHUD
+
+```sh
+$ mangohud gamemoderun <game-binary>
+```
