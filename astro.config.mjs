@@ -30,6 +30,10 @@ export default defineConfig({
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
 				},
+				{
+					label: 'Beginners Guide',
+					autogenerate: { directory: 'beginner_guide' },
+				},
 			],
 		}),
 	],
