@@ -21,4 +21,4 @@ pnpm-debug.log*
 .DS_Store
 
 # Yarn
-# yarn.lock
+yarn.lock
