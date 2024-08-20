@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # Yarn
 yarn.lock
+
+# VSCode Files
+.vscode
