@@ -17,6 +17,7 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Start Page ', slug: 'guides/start' },
 						{ label: 'Distro List', slug: 'guides/distro' },
+						{ label: 'CLI Tools', slug: 'guides/cli' },
 						{ label: 'Internet Tools', slug: 'guides/internet' },
 						{ label: 'Multimedia Tools', slug: 'guides/multimedia' },
 						{ label: 'System Tools', slug: 'guides/system' },
