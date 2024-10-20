@@ -9,6 +9,7 @@ export default defineConfig({
 			title: 'Linux Wiki',
 			social: {
 				github: 'https://github.com/rimsiw/rims-linux-wiki',
+				discord: 'https://discord.gg/pQVYgjzM3w',
 			},
 			sidebar: [
 				{
