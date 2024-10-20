@@ -6,7 +6,7 @@ export default defineConfig({
 	site: 'https://rlw.pages.dev',
 	integrations: [
 		starlight({
-			title: 'Linux Wiki',
+			title: 'rlw',
 			social: {
 				github: 'https://github.com/rimsiw/rims-linux-wiki',
 				discord: 'https://discord.gg/pQVYgjzM3w',
