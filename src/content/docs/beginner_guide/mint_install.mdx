@@ -1,0 +1,123 @@
+---
+title: Installation of Linux Mint
+description: Installation steps for dummies!
+---
+
+import { Steps } from '@astrojs/starlight/components';
+
+## Introduction
+
+This guide will help you install Linux Mint on your machine in the simplest way possible!
+
+## Early Steps
+
+Make sure you have the following:
+
+- USB Drive or CD with at least 4 GB space.
+- Active Internet connection
+
+As of the system requirements, make sure you have:
+
+- at least 1-2 GB of RAM
+- at least 15-20 GB of system storage
+
+If you want to dualboot Linux Mint with Windows, you might want to resize your Windows partition inside it.
+
+## Pre-installation steps
+
+<Steps>
+
+1. Download the Linux Mint installation image from the [official site](https://www.linuxmint.com/).
+
+    <details>
+    <summary>Which version should I pick?</summary>
+    When downloading Linux Mint ISO, you will have an option do download either **Cinnamon**, **XFCE** or **MATE** versions. While it doesn't matter for the most part, keep in mind that Cinnamon version could be more resource-hungry. Focus on whichever version do you like the look of the most!
+    </details>
+
+2. Download [balenaEtcher](https://etcher.balena.io/). This program will allow us to install the system ISO on your thumb drive.
+
+3. Launch balenaEtcher. Select your installation image on the left and desired installation drive on the middle. Please be reminded that all the data from the selected drive will be deleted, so be sure to make a backup!
+
+4. Reboot your computer and enter UEFI firmware settings, in there locate the option **Secure Boot** and **turn it off**.
+
+    <details>
+    <summary>How do I enter it?</summary>
+    You should be able to figure out your BIOS key by simply searching "(your manufacturer's motherboard/laptop) BIOS key". However, on most occasions, it is either **F2** or **Delete**. You can enter the UEFI firmware settings by "spamming" your BIOS key while your PC boots up.
+    </details>
+
+5. Launch your **Boot Menu**.
+
+    <details>
+    <summary>How do I enter it?</summary>
+    You should be able to figure out your Boot Menu key the same way as before. However, most commonly it is the **F9** or **Esc** key. Mashing this button during your PC startup should bring up boot menu.
+    </details>
+
+6. Select your USB drive to which you installed Linux Mint, and when the menu pops up, press Enter.
+
+</Steps>
+
+## Installation
+
+Congratulations! You just booted into Linux Mint! However, it is not installed on your system yet and is only running from your RAM.
+
+<Steps>
+
+1. Click the **"Install Linux Mint"** icon on the desktop.
+
+2. Follow the installation steps about language, keyboard layout etc.
+
+3. One of the screens will ask you if you want to install multimedia codecs. Unless you are running low on storage, you should check the box to install them.
+
+</Steps>
+
+All above is simple enough to understand, but the next part can be tricky to understand for noobs. First, you will need to decide whether you want to **dualboot Linux Mint with another operating system** or **wipe the disk for Linux Mint**
+
+### Wiping the disk
+
+If you decide to wipe the disk entirely, the steps are simple.
+
+<Steps>
+
+1. Select **"Erase disk and install Linux Mint"** option and click **Next**
+
+2. Other screens will ask you about user accounts and password. After that it goes very straight-forward.
+
+</Steps>
+
+### Dualbooting with Windows
+
+:::caution
+If you follow the instructions correctly, you should be fine. However, if you can't afford to lose your Windows partition, **make a backup**
+:::
+
+If you want to install Linux Mint alongside other OS (Windows for this example), you might see an option titled **"Install Linux Mint alongside Windows Boot Manager"**. You can freely select that optionc.
+
+However, if you don't see it:
+
+<Steps>
+
+1. Select **"Something else"** option and click next.
+
+2. Parition the disks. 
+
+    <Steps>
+
+    1. If you haven't shrinken Windows partition before: select your Windows patition and **resize it**. Resize it by whatever storage amount you want to give Linux Mint.
+
+    2. Create a partition of ~1GB size. In the **"use as:"** label, select **EFI System Parition**.
+
+    3. Create the **SWAP** partition. You can specify it by selecting in the **"use as"** label **swap area**.
+
+    4. Asign the remaining space to the **ext4** partition with the mountpoint of **/**
+
+    </Steps>
+
+3. After confirming you partitioned the disks correctly, click next.
+
+4. Select your timezone and set up your user account.
+
+</Steps>
+
+## Final thoughts
+
+And now you have installed Linux Mint all by your own! If you have any more questions, make sure to ask us in our [Discord server](https://rimswiki.xyz/discord)
