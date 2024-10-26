@@ -22,6 +22,6 @@ You can contribute to the wiki by either making a pull request/issue on [GitHub]
 **Can I get my site on the wiki?**
 > If it's relates to the topic of the wiki, you can submit your site either via Discord, GitHub issues, or GitHub pull requests.
 
-**Is there advertisement on this wiki?**
+**Are there advertisements on this wiki?**
 > No.
 
