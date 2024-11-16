@@ -9,6 +9,7 @@ description: General information.
 - 🖥️ - Exclusively a CLI tool
 - ⚠️ - Not FOSS, use alternatives if you prefer Libre software
 - 🔗 - Link redirects to another page or section on the site
+- 🌐 - Link does not contain software, but a tool/list/guide accessible only (or primarly) on the web
 
 ## Contributing
 
