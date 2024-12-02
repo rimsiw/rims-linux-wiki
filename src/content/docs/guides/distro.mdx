@@ -4,73 +4,84 @@ description: Listings of popular distros for beginners, advanced users etc., as 
 ---
 
 import { Tabs, TabItem } from '@astrojs/starlight/components';
-
-## Beginner-Friendly Distros
+### Distros classed by purpose
 
 <Tabs>
-    <TabItem label="Debian/Ubuntu-based">
+    <TabItem label="Day to day use">
+        - ⭐ **[Linux Mint](https://linuxmint.com/)** - Beginner friendly distribution based on Ubuntu
+        - ⭐ **[Debian](https://www.debian.org/)** - Independent Linux distribution
+        - ⭐ **[Arch Linux](https://archlinux.org/)** - Simple and lightweight linux distribution
+        - ⭐ **[EndeavourOS](https://endeavouros.com/)** - Arch-based user-friendly Linux distribution
+        - ⭐ **[CachyOS](https://cachyos.org/)** - Fast arch-based distro for gaming and day to day use
+        - [NixOS](https://nixos.org/)** - Distribution based on Nix package manager
+        - [Void Linux](https://voidlinux.org/)** - Stable rolling-release distribution using runit
+        - [Pop!_OS](https://pop.system76.com/) - Secure and reliable distribution
+        - [elementaryOS](https://elementary.io/) - Distro based on Ubuntu with Pantheon desktop environment
+        - [bedrock linux](https://bedrocklinux.org/) - Meta linux distribution being able to mix components from others
+    </TabItem>
+    <TabItem label="Gaming">
+        - ⭐ **[CachyOS](https://cachyos.org/)** - Fast arch-based distro for gaming and day to day use
+        - ⭐ **[Nobara](https://nobaraproject.org/)** - Gaming distro based on Fedora
+        - [ChimeraOS](https://chimeraos.org/) - Modified version of SteamOS to turn a computer into a console like experience
+        - [Garuda](https://garudalinux.org/) - Arch-based distro for gaming in very early stages would not recommend as a main
+    </TabItem>
+    <TabItem label="Pentesting/Security">
+        - ⭐ **[Parrot](https://parrotsec.org/)** - Ultimate linux distro for cybersecurity
+        - ⭐ **[Tails](https://tails.net/)** - Portable OS that protects against censorship
+        - ⭐ **[Qubes](https://www.qubes-os.org/)** - Secure OS
+        - [Kali Linux](https://www.kali.org/) - Most advanced penetration distribution
+        - [Pentoo](https://www.pentoo.ch/) - Gentoo-based distribution for penetration testing
+        - [AthenaOS](https://athenaos.org/) - Arch-based distribution for pentesting
+        - [Black Arch](https://blackarch.org/) - Arch-based distribution for pentesting
+    </TabItem>
+     <TabItem label="Mobile">
+        - ⭐ **[postmarketOS](https://postmarketos.org/)** - Mobile Linux distribution based on Alpine Linux
+        - ⭐ **[SailfishOS](https://sailfishos.org/)** - Fully independant linux distribution compatible with android apps
+        - [mobian](https://mobian-project.org/) - Mobile version of Debian
+        - [Arch Linux ARM](https://github.com/dreemurrs-embedded/Pine64-Arch) - Arch Linux fork for mobile Pinephones
+        - [Ubuntu Touch](https://ubports.com/en/) - One of the most well known linux distribution for mobile although pretty mediocre nowadays
+    </TabItem>
+     <TabItem label="IOT/Embedded Systems">
+        - ⭐ **[Alpine Linux](https://www.alpinelinux.org/)** - Extremely lightweight linux distribution
+        - ⭐ **[DietPi](https://dietpi.com/)** - Debian based Raspbian alternative a lot more powerful than raspbian but more advanced
+        - [Artix Linux](https://artixlinux.org/) - No systemd variation of Arch
+        - [Raspbian](https://www.raspberrypi.com/software/) - Offcial Raspberry pi OS beginner friendly and very stable
+    </TabItem>
+</Tabs>
+
+### Distros by difficulty/experience
+<Tabs>
+    <TabItem label="Beginner-Friendly">
         - ⭐ **[Linux Mint](https://linuxmint.com/)** - Beginner friendly distribution based on Ubuntu
         - [Pop!_OS](https://pop.system76.com/) - Secure and reliable distribution
         - [elementaryOS](https://elementary.io/) - Distro based on Ubuntu with Pantheon desktop environment
         - [Linux Lite](https://www.linuxliteos.com/) - Lightweight distribution
-    </TabItem>
-    <TabItem label="Other">
         - [Solus](https://getsol.us/) - Distribution made from scratch, using eopkg package manager
         - [Puppy Linux](https://puppylinux-woof-ce.github.io/) - Easy to use independent linux distribution
+
     </TabItem>
-</Tabs>
-
-## Intermediate Distros
-
- <Tabs>
-    <TabItem label="Debian/Ubuntu-based">
+    <TabItem label="Intermediate">
         - ⭐ **[Debian](https://www.debian.org/)** - Independent Linux distribution
-        - [Damn Small Linux](https://www.damnsmalllinux.org/) - Extremely lightweight Linux distribution
-    </TabItem>
-    <TabItem label="Arch-based">
+        - ⭐ **[openSUSE](https://www.opensuse.org/)** - Easy to learn distribution
         - ⭐ **[EndeavourOS](https://endeavouros.com/)** - Arch-based user-friendly Linux distribution
         - ⭐ **[CachyOS](https://cachyos.org/)** - Fast arch-based distro for gaming and day to day use
+        - [Damn Small Linux](https://www.damnsmalllinux.org/) - Extremely lightweight Linux distribution
         - [ArchCraft](https://archcraft.io/) - Lightweight arch Linux fork with pre-riced window manager
-    </TabItem>
-    <TabItem label="Other">
-        - ⭐ **[openSUSE](https://www.opensuse.org/)** - Easy to learn distribution
         - [Fedora](https://fedoraproject.org/) - Popular desktop distribution
         - [Nobara](https://nobaraproject.org/) - "Gaming" distro based on Fedora
+
     </TabItem>
-</Tabs>
-
-## Advanced Distros
-
-<Tabs>
-    <TabItem label="Arch-based">
+    <TabItem label="Advanced">
         - ⭐ **[Arch Linux](https://archlinux.org/)** - Simple and lightweight linux distribution
         - [Artix Linux](https://artixlinux.org/) - No systemd variation of Arch
         - [Parabola](https://www.parabola.nu/) - Distribution approved by Free Software Foundation
-    </TabItem>
-    <TabItem label="Other">
         - ⭐ **[NixOS](https://nixos.org/)** - Distribution based on Nix package manager
         - ⭐ **[Void Linux](https://voidlinux.org/)** - Stable rolling-release distribution using runit
         - [GNU Guix System](https://guix.gnu.org/en/download/) - GNU-developed distribution based on Guix package manager
         - [Linux From Scratch](https://www.linuxfromscratch.org/) - Make your own linux distribution
         - [Gentoo](https://www.gentoo.org/) - Source-based linux distribution
         - [Alpine Linux](https://www.alpinelinux.org/) - Extremely lightweight linux distribution
-        - [Slackware](https://www.slackware.com/)
-        - [bedrock linux](https://bedrocklinux.org/) - Meta linux distribution being able to mix components from others
+        - [Slackware](https://www.slackware.com/) - Independant distro with a pretty old school mentality
+        - [bedrock linux](https://bedrocklinux.org/) - Meta linux distribution being able to mix components from others 
     </TabItem>
-</Tabs> 
-
-## Specific use case
-
-### Security / Hacking
-- [Parrot](https://parrotsec.org/) - Ultimate linux distro for cybersecurity
-- [Tails](https://tails.net/) - Portable OS that protects against censorship
-- [Kali Linux](https://www.kali.org/) - Most advanced penetration distribution
-- [Qubes](https://www.qubes-os.org/) - Secure OS
-- [Pentoo](https://www.pentoo.ch/) - Gentoo-based distribution for penetration testing
-- [AthenaOS](https://athenaos.org/) - Arch-based distribution for pentesting
-- [Black Arch](https://blackarch.org/) - Arch-based distribution for pentesting
-
-### Mobile
-- ⭐ **[postmarketOS](https://postmarketos.org/)** - Mobile Linux distribution based on Alpine Linux
-- [mobian](https://mobian-project.org/) - Mobile version of Debian
-- [Arch Linux ARM](https://github.com/dreemurrs-embedded/Pine64-Arch) - Arch Linux fork for mobile Pinephones
+</Tabs>
