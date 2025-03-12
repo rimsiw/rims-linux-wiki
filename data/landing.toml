@@ -1,0 +1,23 @@
+[hero]
+enable = true
+weight = 10
+template = "hero"
+title = "Rim's Linux Wiki"
+subtitle = "Wiki for all things **Linux**"
+
+    [hero.backgroundImage]
+    path = "images/templates/hero"
+    
+        [hero.backgroundImage.filename]
+        desktop = "gradient-desktop.webp"
+        mobile = "gradient-mobile.webp"
+    
+    [hero.image]
+    path = "images"
+    filename = "tux.png"
+    alt = "Tux"
+
+    [hero.ctaButton]
+    icon = "rocket_launch"
+    btnText = "Get Started"
+    url = "/docs/distro"
