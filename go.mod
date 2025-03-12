@@ -7,5 +7,6 @@ require (
 	github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400 // indirect
 	github.com/hugomods/icons/vendors/bootstrap v0.5.9 // indirect
 	github.com/hugomods/icons/vendors/font-awesome v0.6.12 // indirect
+	github.com/hugomods/icons/vendors/lucide v0.3.40 // indirect
 	github.com/hugomods/icons/vendors/simple-icons v1.1.1 // indirect
 )

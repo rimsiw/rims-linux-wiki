@@ -13,11 +13,17 @@ subtitle = "Wiki for all things **Linux**"
         mobile = "gradient-mobile.webp"
     
     [hero.image]
-    path = "images"
-    filename = "tux.png"
+    path = "images/asset-image"
+    filename = "tux.webp"
     alt = "Tux"
 
     [hero.ctaButton]
     icon = "rocket_launch"
     btnText = "Get Started"
     url = "/docs/distro"
+
+[featureGrid]
+enable = false
+
+[imageCompare]
+enable = false
