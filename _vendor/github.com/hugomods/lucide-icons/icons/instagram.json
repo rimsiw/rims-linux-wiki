@@ -1,0 +1,19 @@
+{
+  "$schema": "../icon.schema.json",
+  "deprecated": true,
+  "contributors": [
+    "colebemis",
+    "csandman",
+    "ericfennis"
+  ],
+  "tags": [
+    "logo",
+    "camera",
+    "social"
+  ],
+  "categories": [
+    "brands",
+    "social",
+    "photography"
+  ]
+}

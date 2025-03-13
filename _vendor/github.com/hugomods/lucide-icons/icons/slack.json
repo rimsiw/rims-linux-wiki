@@ -1,0 +1,21 @@
+{
+  "$schema": "../icon.schema.json",
+  "deprecated": true,
+  "contributors": [
+    "colebemis",
+    "ashygee",
+    "wojtekmaj",
+    "mittalyashu",
+    "ericfennis"
+  ],
+  "tags": [
+    "logo"
+  ],
+  "categories": [
+    "account",
+    "social",
+    "communication",
+    "brands",
+    "development"
+  ]
+}

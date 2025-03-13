@@ -1,0 +1,17 @@
+{
+  "name": "Hugo Icons Module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugomods/icons.git"
+  },
+  "author": "Razon Yang <razonyang@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hugomods/icons/issues"
+  },
+  "homepage": "https://github.com/hugomods/icons#readme",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-go-template": "^0.0.15"
+  }
+}

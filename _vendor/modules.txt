@@ -1,0 +1,13 @@
+# github.com/colinwilson/lotusdocs v0.2.0
+# github.com/gohugoio/hugo-mod-bootstrap-scss/v5 v5.20300.20400
+# github.com/twbs/bootstrap v5.3.3+incompatible
+# github.com/gohugoio/hugo-mod-jslibs-dist/popperjs/v2 v2.21100.20000
+# github.com/hugomods/icons/vendors/bootstrap v0.5.9
+# github.com/hugomods/icons v0.6.6
+# github.com/twbs/icons v1.11.3
+# github.com/hugomods/icons/vendors/simple-icons v1.1.1
+# github.com/hugomods/simple-icons v13.21.0+incompatible
+# github.com/hugomods/icons/vendors/font-awesome v0.6.12
+# github.com/hugomods/font-awesome v6.7.1+incompatible
+# github.com/hugomods/icons/vendors/lucide v0.3.40
+# github.com/hugomods/lucide-icons v0.331.0

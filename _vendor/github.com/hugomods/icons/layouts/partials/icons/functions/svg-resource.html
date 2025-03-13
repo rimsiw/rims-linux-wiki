@@ -1,0 +1,7 @@
+{{- $vendor := .vendor }}
+{{- $name := string .name }}
+{{- with index site.Params.icons.vendors $vendor }}
+  {{- $vendor = .name }}
+{{- end }}
+{{- $path := printf "icons/%s/%s.svg" $vendor $name }}
+{{- return (resources.Get $path) -}}

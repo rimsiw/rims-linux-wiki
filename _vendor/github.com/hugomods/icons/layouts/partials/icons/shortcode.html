@@ -1,0 +1,18 @@
+{{- $opts := newScratch }}
+{{- if .IsNamedParams }}
+  {{- $opts.Set "vendor" (.Get "vendor") }}
+  {{- $opts.Set "name" (.Get "name") }}
+  {{- range slice "size" "width" "height" "color" "className" }}
+    {{- $field := . }}
+    {{- with $.Get . }}
+      {{- $opts.Set $field . }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  {{- $opts.Set "vendor" (.Get 0) }}
+  {{- $opts.Set "name" (.Get 1) }}
+  {{- with .Get 2 }}
+    {{- $opts.Set "size" . }}
+  {{- end }}
+{{- end }}
+{{- partial "icons/icon" $opts.Values -}}

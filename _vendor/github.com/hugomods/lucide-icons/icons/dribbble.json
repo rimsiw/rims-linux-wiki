@@ -1,0 +1,16 @@
+{
+  "$schema": "../icon.schema.json",
+  "deprecated": true,
+  "contributors": [
+    "ahtohbi4"
+  ],
+  "tags": [
+    "design",
+    "social"
+  ],
+  "categories": [
+    "brands",
+    "social",
+    "design"
+  ]
+}

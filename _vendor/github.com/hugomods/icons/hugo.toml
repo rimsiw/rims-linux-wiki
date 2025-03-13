@@ -1,0 +1,8 @@
+[module.hugoVersion]
+min = "0.110.0"
+
+[params.icons]
+throw_on_error = true # throw an error instead of a warning if icon not found.
+
+# [params.icons.vendors.shorthand]
+# name = "full name of vendor"

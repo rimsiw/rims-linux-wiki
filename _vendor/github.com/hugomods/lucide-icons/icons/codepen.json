@@ -1,0 +1,15 @@
+{
+  "$schema": "../icon.schema.json",
+  "deprecated": true,
+  "contributors": [
+    "colebemis",
+    "ericfennis"
+  ],
+  "tags": [
+    "logo"
+  ],
+  "categories": [
+    "brands",
+    "development"
+  ]
+}
