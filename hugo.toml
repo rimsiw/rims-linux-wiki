@@ -1,4 +1,4 @@
-baseURL = 'https://rimswiki.xyz/'
+baseURL = 'https://rims-linux-wiki.vercel.app/'
 languageCode = 'en-us'
 title = 'rlw'
 
