@@ -95,7 +95,7 @@ description: System Tools
 - ⭐ **[htop](https://htop.dev/)** - Interactive process viewer | {{< ico lucide terminal 1.5em>}}
 - [Mission Center](https://gitlab.com/mission-center-devs/mission-center) - System resources monitor similar to Windows one
 - [AMDGPU_TOP](https://github.com/Umio-Yasuno/amdgpu_top) - Tool for displaying usage of your AMD graphics card using AMDGPU driver
-- [btop](https://github.com/aristocratos/btop)** - Monitor system resources usage | {{< ico lucide terminal 1.5em>}}
+- [btop](https://github.com/aristocratos/btop) - Monitor system resources usage | {{< ico lucide terminal 1.5em>}}
 - [vtop](https://github.com/MrRio/vtop) - Monitor system resources usage | {{< ico lucide terminal 1.5em>}}
 - [bashtop](https://github.com/aristocratos/bashtop) - Customizable and extensive resource monitor | {{< ico lucide terminal 1.5em>}}
 
